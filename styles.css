@@ -1,0 +1,144 @@
+body {
+    margin: 0%;
+    background-color: rgba(224, 240, 7, 0.822);
+}
+
+header {
+    background: url(./Imagenes/bombonera.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.cabecera {
+    display: flex;
+    align-items: center;
+    padding-top: 180px;
+    padding-left: 35%;
+}
+
+.cabecera h1 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    text-shadow: 5px 3px 8px yellow;
+}
+
+.cabecera img {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: 100px;
+    padding-right: 20px;
+}
+
+nav {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    padding-left: 25%;
+}
+
+nav button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: grey;
+    padding: 10px;
+    margin: 10px;
+    border-color: aqua;
+    width: 20%;
+}
+
+nav a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+    background-color: blue;
+}
+
+section h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30pt;
+    color: yellow;
+    background-color: blue;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-transform: capitalize;
+}
+
+.divlist {
+    display: flex;
+    align-items: center;
+}
+
+.divcuerpo {
+    text-align: center;
+    list-style-position: inside;
+    font-size: x-large;
+}
+
+.divcuerpo p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.divimage {
+    display: flex;
+    justify-content: center;
+}
+
+.divimage img {
+    width: 80%;
+    height: 80%;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-collapse: collapse;
+
+}
+
+.th,
+.tr {
+    border: 2.5px solid #000;
+    width: 100px;
+    height: 50px;
+}
+
+footer {
+    height: 500px;
+    background-image: url(./Imagenes/Boca3.jpg);
+    background-position: center;
+    background-size: cover;
+    align-items: end;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+footer h4 {
+    display: flex;
+    vertical-align: center;
+    margin: 0%;
+    color: yellow;
+    background-color: blue;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+}
+
+footer a img {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+}

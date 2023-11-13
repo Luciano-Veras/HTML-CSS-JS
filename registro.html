@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="./stylesform.css">
+</head>
+
+<body>
+
+
+
+    <div class="form-content">
+        <h1><a href="index.html">Boca Juniors</a></h1>
+
+        <form action="https://formsubmit.co/luchoraulveras@gmail.com" method="post" enctype="multipart/form-data">
+
+            <label for="nombre">Nombre de Usuario</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Luciano_Veras" required>
+
+
+            <label for="contraseña">Contraseña</label>
+            <input type="password" name="contraseña" id="contraseña" pattern=".{4,}"
+                placeholder="usar minimo 4 caracteres">
+
+
+            <label for="email">Direccion de correo electronico</label>
+            <input type="email" name="email" id="email" placeholder="xxxx@gmail.com">
+
+
+            <label for="telefono">Numero de telefono</label>
+            <input type="number" name="telefono" id="telefono" placeholder="3512594009">
+
+
+            <label for="edad">Fecha de Nacimiento</label>
+            <input type="date" name="edad" id="edad" max="2005-01-01">
+
+            <div class="sexo">
+                <label for="sexo">Sexo del ususario</label>
+                <br>
+                <label for="hombre">Hombre</label>
+                <input type="radio" name="sexo" id="hombre" value="1">
+                <label for="mujer">Mujer</label>
+                <input type="radio" name="sexo" id="mujer" value="2">
+                <label for="otro">Otro</label>
+                <input type="radio" name="sexo" id="otro" value="3">
+            </div>
+
+
+            <label for="nacionalidad">Nacionalidad</label>
+            <select name="nacionalidad" id="nacionalidad">
+                <option value="Argentina">Argentina</option>
+                <option value="Brazil">Brasil</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Otro">Otro</option>
+            </select>
+
+
+            <label for="mensaje">Ingrese comentario</label>
+            <br>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+
+            <div class="btn">
+                <button type="submit" >Enviar</button>
+                <button type="reset" >Borrar</button>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/registro.html">
+                <input type="hidden" name="_captcha" value="false">
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-content {
+    background: linear-gradient(50deg,
+            rgba(40, 42, 55, 1) 50%,
+            rgba(40, 42, 55, 0.7)),
+        url(./Imagenes/Boca3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    width: 1000px;
+    border-radius: 25px;
+}
+
+.form-content h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.form-content h1 a {
+    color: white;
+}
+
+.form-content h1 a:hover {
+color: yellow;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+label, .sexo {
+    font-size: 15px;
+    color: #959aab;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    background: #959aab;
+    border: 0;
+    font-size: 15px;
+    color: aliceblue;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+:focus {
+   outline: 1px solid blue; 
+}
+
+.btn button{
+    background-color: burlywood;
+    margin-left: 23px;
+    width: 35%;
+    height: 50%;
+    border-radius: 10%;
+    border: 0;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: antiquewhite;
+} 
+
+
